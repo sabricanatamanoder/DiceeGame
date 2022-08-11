@@ -1,0 +1,59 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+
+  /* Yukarıdaki işlemlerle sırasıyla conteiner'ımızın genişliğini
+  ve marginini ayarlayıp text-align'le içindeki tüm metin elementlerini
+  merkeze hizaladık.*/
+
+  .dice {
+    text-align: center;
+    display: inline-block;
+  }
+/* Zar clasına sahip iki divimizi merkeze hizaladıktan sonra inline-block
+özelliğiyle yan yana gelmelerine imkân verdik. */
+
+body {
+    background-color: #393E46;
+  }
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', 'Cursive'; 
+    text-shadow: 5px 0px #232931;
+    font-size: 7rem;
+    color: #4ECCA3;
+}
+
+/*font-family'deki ilk parametre font ailesinin adını, ikincisi ise genelleyici
+adını ifade eder */
+/*Text Shadow'daki ilk value, yatay gölgeyi, ikincisi dikey gölgeyi, üçüncüsü
+ise kullanılan rengin hex codunu ifade etmektedir.*/
+/*Çoğu tarayıcıda varsayılan kök rem değeri 16'dır. Biz bunu 8 yaparak 
+yazının boyutunu değiştirdik. */
+
+p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+img {
+    width: 80%;
+  }
+
+  footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  
+  }
+  
+
+
+
+
