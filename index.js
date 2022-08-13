@@ -2,7 +2,7 @@ var randomNumber1 = Math.floor(Math.random() * 6 + 1)
 // Math.random işlevi ile 0 ilâ 0.9 arasında sayılar üretilir.
 // Bu sayıları 6 ile çarptığımızda 0'dan 5'e kadar sayılar üretebiliriz.
 // Ancak onların ondalıklı olmasını istemiyoruz.
-// Bu yüzden Math.floor methodunu kullanıp sayımızı aşağı yuvarlıyoruz.
+// Bu yüzden Math.floor methodunu kullanıp sayımızı yuvarlıyoruz.
 // Buna 1 ilâve ettiğimizde artık 1-6 arasında sayı üretmeye hazırız.
 
 var randomDiceImage = "dice" + randomNumber1 + ".png";
